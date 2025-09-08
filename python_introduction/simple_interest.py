@@ -1,14 +1,10 @@
-#Define the three values principal(P), rate(R) adn time(T)
-P = 1000
-R = 0.05
-T = 3
-I = "interest"
+# Define the variables
+principal = 1000   # Principal amount in dollars
+rate = 0.05        # Annual interest rate as decimal
+time = 3           # Time in years
 
-# calculation of the interest earned 
-I = P * R * T 
+# Calculate the simple interest
+interest = principal * rate * time
 
-# print the calculated interest 
-print(f"principal = {P}")
-print(f"rate = {R}")
-print(f"time = {T}")
-print(f"The simple interest is: {I}")
+# Print the result
+print(f"The simple interest is: {interest}")
