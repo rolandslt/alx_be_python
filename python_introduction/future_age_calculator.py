@@ -1,5 +1,5 @@
 # Define the user input age 
-current_age = int(input("How old are you"))
+current_age = int(input("How old are you? "))
 current_year = 2023
 future_year = 2050
 
