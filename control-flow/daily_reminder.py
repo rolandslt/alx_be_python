@@ -1,6 +1,3 @@
-# File: control-flow/daily_reminder.py
-# Repository: alx_be_python
-
 # Prompt the user for task details
 task = input("Enter your task: ")
 priority = input("Priority (high/medium/low): ")
@@ -23,5 +20,5 @@ if time_bound == "yes":
 else:
     reminder += ". Consider completing it when you have free time."
 
-# Print the final reminder
-print("\nReminder:", reminder)
+# Print the reminder in the exact expected format
+print(f"Reminder: {reminder}")
